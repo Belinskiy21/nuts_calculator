@@ -40,7 +40,7 @@
 
 ## Errors
 
-- If file contain a negative number:
+- If the input file contains a negative number:
    `The negative number input detected on the line: #number detected!`
 
 - If line size more or less then 4:
