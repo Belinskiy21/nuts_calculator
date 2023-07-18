@@ -14,7 +14,7 @@ class Calculator
   def deliverable_amount
     return 0 if transportation_fee > capacity || transportation_fee > nuts_amount
 
-    @deliverable_amount ||= capacity - transportation_fee
+    @deliverable_amount ||= [capacity, nuts_amount].min - transportation_fee
   end
 
   private
